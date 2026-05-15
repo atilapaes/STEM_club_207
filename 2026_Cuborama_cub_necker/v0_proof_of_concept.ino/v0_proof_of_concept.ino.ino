@@ -58,7 +58,6 @@ void loop() {
   // CHASING LIGHTS
   if (pattern == 0) { 
     for (int i = 0; i < pinCount; i++) {
-    digitalWrite(ledPins[i], HIGH); // Turn on LED
     int level = read_potentiometer(20); 
     delay(25*(level+1)); // Delay ajusted by the potentiomer. The +1 is to avoid delay 0
     digitalWrite(ledPins[i], LOW);  // Turn off LED
