@@ -1,0 +1,29 @@
+Right LED whip
+D1 - LED blue 1
+D0 - LED blue 2
+D2 - LED orange 1
+D3 - LED blue 3
+D4 - LED blue 4
+D5 - LED orange 4
+D6 - LED blue 5
+D7 - LED blue 6
+
+Left LED whip
+D8 - LED blue 1
+D9 - LED blue 2
+D10 - LED red eye 1
+D11 - LED red eye 2
+D12 - LED orange 1
+D13 - LED blue 3 
+D14 - LED blue 4
+D15 - LED blue 5 (D15 and D16 are inverted in the whip)
+D16 - LED orange 2
+
+4 digit display 
+D17 - Clock
+D18 - Dio
+
+D19 - Push button (Normally open, and using a 10k resistor)
+
+A6 - Potentiometer 1
+A7 - Potentiometer 2 
